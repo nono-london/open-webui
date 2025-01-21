@@ -1,6 +1,27 @@
 import json
 import asyncio
 from playwright.async_api import async_playwright, Playwright
+import json
+from open_webui.app_config import get_project_root_path
+
+def read_json_file(file_path):
+    # Replace 'yourfile.json' with the path to your JSON file
+    filename = 'yourfile.json'
+
+    try:
+        # Open the JSON file for reading
+        with open(filename, 'r') as file:
+            # Parse the JSON data from the file
+            data = json.load(file)
+        
+        # Now `data` is a Python dictionary or list, depending on your JSON structure
+        print(data)
+
+    except FileNotFoundError:
+        print(f"The file {filename} was not found.")
+    except json.JSONDecodeError as e:
+        print(f"An error occurred while decoding the JSON: {e}")
+        
 
 async def run(playwright: Playwright):
     chromium = playwright.chromium # or "firefox" or "webkit".
@@ -14,6 +35,9 @@ async def main():
     async with async_playwright() as playwright:
         await run(playwright)
 asyncio.run(main())
+
+
+
 
 
 def build_sec_url(accession_number, cik:str='0001318605', ):
@@ -55,9 +79,15 @@ def process_json_file(file_path):
 
     return urls
 
-# Example usage
-file_path = 'path/to/your/json_file.json'
-urls = process_json_file(file_path)
 
-for url in urls:
-    print(url)
+
+if __name__ == '__main__':
+    print(get_project_root_path())
+
+    exit(0)
+    # Example usage
+    file_path = 'path/to/your/json_file.json'
+    urls = process_json_file(file_path)
+
+    for url in urls:
+        print(url)
