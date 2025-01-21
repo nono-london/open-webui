@@ -10,7 +10,7 @@ def get_project_root_path() -> Path:
 def get_project_download_path() -> Path:
     # https://stackoverflow.com/questions/25389095/python-get-path-of-root-project-structure/40227116
     root_path: Path = get_project_root_path()
-    download_folder_path = Path(root_path, root_path.name, "downloads")
+    download_folder_path = Path(root_path, "open_webui", "downloads")
     if not download_folder_path.exists():
         download_folder_path.mkdir(parents=True)
     return download_folder_path
