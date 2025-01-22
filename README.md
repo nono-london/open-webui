@@ -9,6 +9,10 @@ open-webui serve
 ``
 
 # Embeddings models
+You can get a full list of available models (compatible with EBert), on the [Ebert website](https://www.sbert.net/docs/sentence_transformer/pretrained_models.html), on follow the link to the huggugface website to add the full link to the model, for instance: sentence-transformers/all-mpnet-base-v2
+
+
+
 ``
 sentence-transformers/all-MiniLM-L6-v2
 ``
