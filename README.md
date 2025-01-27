@@ -55,5 +55,7 @@ mixedbread-ai/mxbai-embed-large-v1
 ``
 intfloat/multilingual-e5-large-instruct
 ``
+## For multilanguage (including French)
+`` sentence-transformers/paraphrase-multilingual-mpnet-base-v2 ``
 
 
