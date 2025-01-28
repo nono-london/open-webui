@@ -26,9 +26,12 @@ if not exist
 ln -s /media/darkdragon/ssd_data_1to/ai/python_ai/open-webui/venv/lib/python3.11/site-packages/open_webui/data/uploads /media/darkdragon/ssd_data_1to/ai/python_ai/open-webui/uploads-shortcut
 ``
 
+# update open-webui
 
 
+``pip install --upgrade pip``
 
+``pip install --upgrade open-webui``
 
 
 # commands
