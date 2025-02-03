@@ -46,7 +46,7 @@ You can get a full list of available models (compatible with EBert), on the [Ebe
 * Most models of interest can be found and doanloaded from this [huggingface link](https://huggingface.co/spaces/mteb/leaderboard). there you can select reranking models 
 
 
-
+default
 ``
 sentence-transformers/all-MiniLM-L6-v2
 ``
@@ -58,6 +58,11 @@ mixedbread-ai/mxbai-embed-large-v1
 ``
 intfloat/multilingual-e5-large-instruct
 ``
+https://huggingface.co/spaces/mteb/leaderboard
+``
+Alibaba-NLP/gte-Qwen2-7B-instruct
+``
+
 ## For multilanguage (including French)
 `` sentence-transformers/paraphrase-multilingual-mpnet-base-v2 ``
 
