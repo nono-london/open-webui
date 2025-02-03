@@ -1,5 +1,6 @@
 playwright
 python-dotenv
+open-webui
 # python -m pip install --upgrade pip
 # python.exe -m pip install --upgrade pip
 
