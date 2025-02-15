@@ -66,4 +66,14 @@ Alibaba-NLP/gte-Qwen2-7B-instruct
 ## For multilanguage (including French)
 `` sentence-transformers/paraphrase-multilingual-mpnet-base-v2 ``
 
+Alibaba seetings
+"Embedding Model"
+Alibaba-NLP/gte-Qwen2-7B-instruct
+"Reranking Model"
+BAAI/bge-reranker-v2-m3
+## using mixedbread
+[rerank link](https://www.mixedbread.ai/blog/mxbai-rerank-v1)
+"Embedding Model": mixedbread-ai/mxbai-embed-large-v1
+"Reranking Model" mixedbread-ai/mxbai-rerank-large-v1
+
 
