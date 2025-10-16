@@ -3,3 +3,4 @@ downloads
 .webui_secret_key
 *.pyc
 .idea
+uploads-shortcut
