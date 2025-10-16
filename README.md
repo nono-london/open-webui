@@ -17,13 +17,13 @@ open-webui serve
 if already exist
 
 ``
-ln -sf /media/darkdragon/ssd_data_1to/ai/python_ai/open-webui/venv/lib/python3.11/site-packages/open_webui/data/uploads /media/darkdragon/ssd_data_1to/ai/python_ai/open-webui/uploads-shortcut
+ln -sf /home/dragons/ai/python_ai/open-webui/venv/lib/python3.11/site-packages/open_webui/data/uploads /home/dragons/ai/python_ai/open-webui/uploads-shortcut
 ``
 
 if not exist
 
 ``
-ln -s /media/darkdragon/ssd_data_1to/ai/python_ai/open-webui/venv/lib/python3.11/site-packages/open_webui/data/uploads /media/darkdragon/ssd_data_1to/ai/python_ai/open-webui/uploads-shortcut
+ln -s /home/dragons/ai/python_ai/open-webui/venv/lib/python3.11/site-packages/open_webui/data/uploads /home/dragons/ai/python_ai/open-webui/uploads-shortcut
 ``
 
 # update open-webui
